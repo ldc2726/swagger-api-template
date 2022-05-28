@@ -1,0 +1,13 @@
+{
+  "name": "swagger-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.ts",
+  "swaggerpath": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "decong.li",
+  "license": "ISC",
+  "private": false
+}
