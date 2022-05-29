@@ -5,12 +5,12 @@
 ### 1. 安装
 
 ```
-npm install @swagger/xxx -S
+npm install xxx-api -S
 ```
 
 ### 2. 引入使用API 请求参数/相应参数的判断
 ```
-import { Api, types } from '@swagger/xxx'
+import { Api, types } from 'xxx-api'
 
 type CreateAuditConfigVO = types.CreateAuditConfigVO
 
@@ -25,7 +25,7 @@ Api.createOrgUsingPOST(datas.value).then( res=> {
 ### 3. 修改请求拦截的操作---必须定义完毕在src中引用
 做了一点优化，当项目存在多个api时，只需要引入`setRequest`方法即可享用全局的axios实例
 ```
-import { setRequest } from "@swagger/user-api";
+import { setRequest } from "xxx-api";
 import axios from 'axios'
 interface PostData {
   url: string;
